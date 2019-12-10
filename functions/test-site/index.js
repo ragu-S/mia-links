@@ -1,4 +1,4 @@
-// const puppeteer = require("puppeteer");
+const puppeteer = require("puppeteer");
 // const request = require("request");
 
 exports.handler = async event => {
