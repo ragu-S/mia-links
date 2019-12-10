@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "copy-modules": "rm -rf dist && mkdir dist && rsync -rv * dist --exclude ./dist"
+    "prebuild": "cd functions/another-test && npm i"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,5 @@
     "url": "https://github.com/ragu-S/mia-links/issues"
   },
   "homepage": "https://github.com/ragu-S/mia-links#readme",
-  "dependencies": {
-    "puppeteer": "^2.0.0",
-    "request": "^2.88.0"
-  }
+  "dependencies": {}
 }
