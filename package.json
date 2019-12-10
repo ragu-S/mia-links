@@ -1,0 +1,23 @@
+{
+  "name": "rangleio-site-invalid-links",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ragu-S/mia-links.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ragu-S/mia-links/issues"
+  },
+  "homepage": "https://github.com/ragu-S/mia-links#readme",
+  "dependencies": {
+    "puppeteer": "^2.0.0",
+    "request": "^2.88.0"
+  }
+}
